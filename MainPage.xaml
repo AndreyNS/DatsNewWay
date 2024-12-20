@@ -14,14 +14,14 @@
                     </LinearGradientBrush>
                 </BoxView.Background>
             </BoxView>
-            <StackLayout Orientation="Horizontal" VerticalOptions="Start" Padding="0,-25,0,0">
-                <Image Source="hvoi.png" WidthRequest="300"/>
-                <Image Source="hvoi.png" WidthRequest="300"/>
-                <Image Source="hvoi.png" WidthRequest="300"/>
-                <Image Source="hvoi.png" WidthRequest="300"/>
-                <Image Source="hvoi.png" WidthRequest="300"/>
-                <Image Source="hvoi.png" WidthRequest="300"/>
-                <Image Source="hvoi.png" WidthRequest="300"/>
+            <StackLayout Orientation="Horizontal" VerticalOptions="Start" >
+                <Image Source="hvoi.png" WidthRequest="300" Margin="0,-30,0,0"/>
+                <Image Source="hvoi.png" WidthRequest="300" Margin="0,-30,0,0"/>
+                <Image Source="hvoi.png" WidthRequest="300" Margin="0,-30,0,0"/>
+                <Image Source="hvoi.png" WidthRequest="300" Margin="0,-30,0,0"/>
+                <Image Source="hvoi.png" WidthRequest="300" Margin="0,-30,0,0"/>
+                <Image Source="hvoi.png" WidthRequest="300" Margin="0,-30,0,0"/>
+                <Image Source="hvoi.png" WidthRequest="300" Margin="0,-30,0,0"/>
             </StackLayout>
 
             <StackLayout Orientation="Horizontal" VerticalOptions="Start" Spacing="-14">
@@ -29,17 +29,19 @@
                 <Image Source="christmas_lights.gif" IsAnimationPlaying="True" WidthRequest="600"/>
                 <Image Source="christmas_lights.gif" IsAnimationPlaying="True" WidthRequest="600"/>
             </StackLayout>
-            <Image Source="snow_window.png" HorizontalOptions="Start" VerticalOptions="End" HeightRequest="300"/>
-            <StackLayout Orientation="Horizontal" VerticalOptions="End" Padding="0,0,0,-30">
-                <Image Source="hvoi.png" WidthRequest="300"/>
-                <Image Source="hvoi.png" WidthRequest="300"/>
-                <Image Source="hvoi.png" WidthRequest="300"/>
-                <Image Source="hvoi.png" WidthRequest="300"/>
-                <Image Source="hvoi.png" WidthRequest="300"/>
-                <Image Source="hvoi.png" WidthRequest="300"/>
-                   <Image Source="hvoi.png" WidthRequest="300"/>
-            </StackLayout>
             
+            <Image Source="snow_window.png" HorizontalOptions="Start" VerticalOptions="End" HeightRequest="300"/>
+            
+            <StackLayout Orientation="Horizontal" VerticalOptions="End">
+                <Image Source="hvoi.png" WidthRequest="300" Margin="0,0,0,-30"/>
+                <Image Source="hvoi.png" WidthRequest="300" Margin="0,0,0,-30"/>
+                <Image Source="hvoi.png" WidthRequest="300" Margin="0,0,0,-30"/>
+                <Image Source="hvoi.png" WidthRequest="300" Margin="0,0,0,-30"/>
+                <Image Source="hvoi.png" WidthRequest="300" Margin="0,0,0,-30"/>
+                <Image Source="hvoi.png" WidthRequest="300" Margin="0,0,0,-30"/>
+                <Image Source="hvoi.png" WidthRequest="300" Margin="0,0,0,-30"/>
+            </StackLayout>
+
             <StackLayout Orientation="Horizontal">
                 <Grid HorizontalOptions="Start" VerticalOptions="End" Padding="-5,0,0,0">
                     <Image Source="kamin.png" HeightRequest="300"/>
