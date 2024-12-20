@@ -14,7 +14,41 @@
                     </LinearGradientBrush>
                 </BoxView.Background>
             </BoxView>
-           
+            <StackLayout Orientation="Horizontal" VerticalOptions="Start" Padding="0,-25,0,0">
+                <Image Source="hvoi.png" WidthRequest="300"/>
+                <Image Source="hvoi.png" WidthRequest="300"/>
+                <Image Source="hvoi.png" WidthRequest="300"/>
+                <Image Source="hvoi.png" WidthRequest="300"/>
+                <Image Source="hvoi.png" WidthRequest="300"/>
+                <Image Source="hvoi.png" WidthRequest="300"/>
+                <Image Source="hvoi.png" WidthRequest="300"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" VerticalOptions="Start" Spacing="-14">
+                <Image Source="christmas_lights.gif" IsAnimationPlaying="True" WidthRequest="600"/>
+                <Image Source="christmas_lights.gif" IsAnimationPlaying="True" WidthRequest="600"/>
+                <Image Source="christmas_lights.gif" IsAnimationPlaying="True" WidthRequest="600"/>
+            </StackLayout>
+            <Image Source="snow_window.png" HorizontalOptions="Start" VerticalOptions="End" HeightRequest="300"/>
+            <StackLayout Orientation="Horizontal" VerticalOptions="End" Padding="0,0,0,-30">
+                <Image Source="hvoi.png" WidthRequest="300"/>
+                <Image Source="hvoi.png" WidthRequest="300"/>
+                <Image Source="hvoi.png" WidthRequest="300"/>
+                <Image Source="hvoi.png" WidthRequest="300"/>
+                <Image Source="hvoi.png" WidthRequest="300"/>
+                <Image Source="hvoi.png" WidthRequest="300"/>
+                   <Image Source="hvoi.png" WidthRequest="300"/>
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal">
+                <Grid HorizontalOptions="Start" VerticalOptions="End" Padding="-5,0,0,0">
+                    <Image Source="kamin.png" HeightRequest="300"/>
+                    <StackLayout VerticalOptions="End" Margin="20,0,0,30">
+                        <Image Source="fire_kamin.gif" IsAnimationPlaying="True" HeightRequest="90" />
+                    </StackLayout>
+                </Grid>
+                <Image Source="cat.png" WidthRequest="100" VerticalOptions="End" HorizontalOptions="End" Margin="-15,0,0,0"/>
+            </StackLayout>
         </Grid>
     </ContentPage.Content>
 

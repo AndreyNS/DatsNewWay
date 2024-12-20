@@ -58,6 +58,8 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\fire.gif" />
+	  <None Remove="Resources\Images\hvoi.png" />
+	  <None Remove="Resources\Images\snow_window.png" />
 	</ItemGroup>
 
 	<ItemGroup>
