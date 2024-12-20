@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DatsNewWay.Resources.Styles.CustomStyle">
+
+    <Color x:Key="Primary">#512BD4</Color>
+    <Color x:Key="PrimaryDark">#ac99ea</Color>
+
+    <LinearGradientBrush x:Key="GeneralBackgroundColor">
+        <GradientStop Color="#FF5733" Offset="0.0" />
+        <GradientStop Color="#FFC300" Offset="1.0" />
+    </LinearGradientBrush>
+
+</ResourceDictionary>
