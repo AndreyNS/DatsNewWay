@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DatsNewWay.TestPage"
+             xmlns:skia="clr-namespace:SkiaSharp.Views.Maui.Controls;assembly=SkiaSharp.Views.Maui.Controls"
+             Title="TestPage">
+    <VerticalStackLayout>
+        <Frame WidthRequest="450"
+               HeightRequest="450"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               BackgroundColor="Transparent"
+               Padding="0"
+               HasShadow="False"
+               BorderColor="Transparent"
+               CornerRadius="10">
+
+
+        </Frame>
+
+    </VerticalStackLayout>
+</ContentPage>

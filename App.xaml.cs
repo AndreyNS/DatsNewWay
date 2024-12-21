@@ -6,7 +6,14 @@
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            try
+            {
+                MainPage = new MainPage();
+            }
+            catch (Exception ex)
+            {
+                Console.Out.WriteLine(ex.Message);
+            }
         }
     }
 }
